@@ -1,0 +1,38 @@
+.chat-wrapper {
+  max-width: 640px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.messages {
+  border: 1px solid #ddd;
+  min-height: 240px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.user {
+  color: #0b63f6;
+  margin-bottom: 8px;
+}
+
+.bot {
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 14px;
+}

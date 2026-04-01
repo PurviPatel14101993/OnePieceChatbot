@@ -1,0 +1,14 @@
+<div class="chat-wrapper">
+  <h2>One Piece Chatbot</h2>
+
+  <div class="messages">
+    <div *ngFor="let msg of messages" [class.user]="msg.sender === 'user'" [class.bot]="msg.sender === 'bot'">
+      <strong>{{ msg.sender }}:</strong> {{ msg.content }}
+    </div>
+  </div>
+
+  <div class="input-row">
+    <input [(ngModel)]="userInput" placeholder="Ask Luffy anything..." />
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>
