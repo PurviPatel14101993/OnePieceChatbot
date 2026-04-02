@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "ng serve",
-    "build": "ng build"
+    "start": "ng serve onepiece-chatbot",
+    "build": "ng build onepiece-chatbot"
   },
   "dependencies": {
     "@angular/common": "^17.0.0",
@@ -14,6 +14,7 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "rxjs": "^7.8.0",
+    "tslib": "^2.6.2",
     "zone.js": "^0.14.0"
   },
   "devDependencies": {
